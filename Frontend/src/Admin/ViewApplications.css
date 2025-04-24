@@ -1,0 +1,54 @@
+.view-payments-container {
+  max-width: 80%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9fb;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.payment-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.payment-table th,
+.payment-table td {
+  border: 1px solid #ddd;
+  padding: 14px;
+  text-align: left;
+}
+
+.payment-table th {
+  background-color:  #9a4e17;
+  color: white;
+  font-weight: bold;
+}
+
+.payment-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.payment-table tr:hover {
+  background-color: #eafaf1;
+}
+
+.payment-table td {
+  color: #34495e;
+}
+
+.payment-table tr td:last-child {
+  font-weight: bold;
+}
+
+.payment-table tr td:nth-child(4) {
+  text-align: right;
+}

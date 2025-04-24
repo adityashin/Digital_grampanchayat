@@ -1,0 +1,87 @@
+/* Container Styling */
+.view-schemes-container {
+  padding: 2rem;
+  max-width: 80%;
+  margin: 2rem auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.view-schemes-container h3 {
+  text-align: center;
+  color: #2d3748;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+/* Table Styling */
+.scheme-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: #ffffff;
+}
+
+.scheme-table th,
+.scheme-table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.scheme-table th {
+  background-color: #9a4e17;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.scheme-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.scheme-table tr:hover {
+  background-color: #fdeee3;
+}
+
+/* Button Styling */
+.edit-btn {
+  background-color: #9a4e17;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.status-btn {
+  background-color: #33dd60;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.edit-btn:hover .status-btn:hover {
+  background-color: #9a4e17;
+}
+
+.edit-btn:active  .status-btn:active {
+  transform: scale(0.98);
+}
+
+.status-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px; /* Space between buttons */
+}
